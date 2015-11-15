@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="QRCodeCreator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QRCodeCreator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding Source={StaticResource Locator}, Path=Main}"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0" Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <TextBox Grid.Row="0" Text="{Binding SourceText, Mode=TwoWay}" Header="Enter Text" />
+
+            <Image Grid.Row="1" Source="{Binding Bitmap, Mode=TwoWay}" />
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <CommandBar>
+                <CommandBar.PrimaryCommands>
+                    <AppBarButton Icon="Sync" Label="Create QR Code" Command="{Binding CommandGetQRCode}"/>
+                    <AppBarButton Icon="Save" Label="Save" Command="{Binding CommandSave}" />
+                </CommandBar.PrimaryCommands>
+                <CommandBar.SecondaryCommands>
+                    <AppBarButton Label="about" x:Name="BtnAbout" x:Uid="BtnAbout" Click="BtnAbout_OnClick" Icon="Emoji2"/>
+                </CommandBar.SecondaryCommands>
+            </CommandBar>
+        </Grid>
+    </Grid>
+</Page>

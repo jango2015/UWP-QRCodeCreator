@@ -1,0 +1,1 @@
+MainPackage=D:\Edi-GitHub\UWP-QRCodeCreator\QRCodeCreator\bin\x86\Release\Upload\QRCodeCreator_1.3.13.0_x86.appx

@@ -1,0 +1,2 @@
+MainPackage=D:\Edi-GitHub\UWP-QRCodeCreator\QRCodeCreator\bin\x86\Release\QRCodeCreator_1.3.13.0_x86.appx
+SymbolPackage=D:\Edi-GitHub\UWP-QRCodeCreator\QRCodeCreator\AppPackages\QRCodeCreator_1.3.13.0_Test\QRCodeCreator_1.3.13.0_x86.appxsym

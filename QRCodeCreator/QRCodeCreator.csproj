@@ -121,11 +121,10 @@
   <ItemGroup>
     <None Include="Package.StoreAssociation.xml" />
     <Content Include="Assets\mytile.png" />
-    <Content Include="Assets\NewStoreLogo.scale-100.png" />
-    <Content Include="Assets\NewStoreLogo.scale-125.png" />
-    <Content Include="Assets\NewStoreLogo.scale-150.png" />
-    <Content Include="Assets\NewStoreLogo.scale-200.png" />
-    <Content Include="Assets\NewStoreLogo.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
     <Content Include="Assets\Square150x150Logo.scale-100.png" />
     <Content Include="Assets\Square150x150Logo.scale-400.png" />
     <Content Include="Assets\Square310x310Logo.scale-100.png" />
